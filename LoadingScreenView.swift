@@ -1,23 +1,18 @@
+// LoadingScreenView.swift
 //
-//  LoadingScreenView.swift
-//  Mixify
-//
-//  Created by Moller M on 10/29/23.
-//
+// created by Moller M on 10/29/23
 
 import SwiftUI
+import CoreData
 
 struct LoadingScreenView: View {
     var body: some View {
        VStack {
-            Image("LoadingCat")         //calls "LoadingCat" image from 'Assets'
-                .imageScale(.large)
+            Image("LoadingScreenLogo")         //calls "LoadingCat" image from 'Assets'
+                .imageScale(.small)
                 .offset(y:80)           //coordinates of image on screen
                 .foregroundStyle(.blue)
                 .padding()              //creates "padding" space around image or text
-        }
-        
-        VStack() {
             Image("LoadingNote1")       //calls "LoadingNote1" image from 'Assets'
                 .offset(x:-130)
             Image("LoadingNote2")       //calls "LoadingNote2" image from 'Assets'
@@ -28,11 +23,16 @@ struct LoadingScreenView: View {
             Text("Generating a playlist just for you!")
                 .bold()
                 .offset(y:-130)
+           
         }
+        
         .padding() //margin             //creates padding/margin around screen
     }
 }
 
-#Preview {
-    LoadingScreenView()
+struct LoadingScreenView_Preview: PreviewProvider {
+    static var previews: some View {
+        LoadingScreenView()
+    }
 }
+
