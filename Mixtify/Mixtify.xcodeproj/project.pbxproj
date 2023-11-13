@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293141182B00A6870046CB6F /* MixtifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293141172B00A6870046CB6F /* MixtifyApp.swift */; };
+		2931411A2B00A6870046CB6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293141192B00A6870046CB6F /* ContentView.swift */; };
+		2931411C2B00A6880046CB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2931411B2B00A6880046CB6F /* Assets.xcassets */; };
+		293141202B00A6880046CB6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2931411F2B00A6880046CB6F /* Preview Assets.xcassets */; };
+		2931412A2B00A6880046CB6F /* MixtifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293141292B00A6880046CB6F /* MixtifyTests.swift */; };
+		293141342B00A6880046CB6F /* MixtifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293141332B00A6880046CB6F /* MixtifyUITests.swift */; };
+		293141362B00A6880046CB6F /* MixtifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293141352B00A6880046CB6F /* MixtifyUITestsLaunchTests.swift */; };
+		293141462B00A7AD0046CB6F /* LoadingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293141452B00A7AD0046CB6F /* LoadingScreenView.swift */; };
+		2931414A2B00A7EF0046CB6F /* LoadingScreenLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 293141492B00A7EF0046CB6F /* LoadingScreenLogo.png */; };
+		2931414C2B00A80D0046CB6F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2931414B2B00A80D0046CB6F /* GridView.swift */; };
+		2931414E2B00A81C0046CB6F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2931414D2B00A81C0046CB6F /* WelcomeView.swift */; };
+		293141542B00A9770046CB6F /* GeneratePlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293141532B00A9770046CB6F /* GeneratePlaylist.swift */; };
+		295DD7552B0172A600337EB3 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295DD7542B0172A600337EB3 /* SpotifyiOS.framework */; };
+		295DD75C2B017E2900337EB3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295DD75B2B017E2900337EB3 /* Constants.swift */; };
+		295DD75E2B017FBF00337EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295DD75D2B017FBF00337EB3 /* ViewController.swift */; };
+		295DD7602B01802500337EB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295DD75F2B01802500337EB3 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293141262B00A6880046CB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2931410C2B00A6870046CB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293141132B00A6870046CB6F;
+			remoteInfo = Mixtify;
+		};
+		293141302B00A6880046CB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2931410C2B00A6870046CB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293141132B00A6870046CB6F;
+			remoteInfo = Mixtify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293141142B00A6870046CB6F /* Mixtify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixtify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293141172B00A6870046CB6F /* MixtifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtifyApp.swift; sourceTree = "<group>"; };
+		293141192B00A6870046CB6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2931411B2B00A6880046CB6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2931411D2B00A6880046CB6F /* Mixtify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mixtify.entitlements; sourceTree = "<group>"; };
+		2931411F2B00A6880046CB6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		293141252B00A6880046CB6F /* MixtifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixtifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293141292B00A6880046CB6F /* MixtifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtifyTests.swift; sourceTree = "<group>"; };
+		2931412F2B00A6880046CB6F /* MixtifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixtifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293141332B00A6880046CB6F /* MixtifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtifyUITests.swift; sourceTree = "<group>"; };
+		293141352B00A6880046CB6F /* MixtifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		293141452B00A7AD0046CB6F /* LoadingScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingScreenView.swift; path = "../../../iosdev-miaBranch/LoadingScreenView.swift"; sourceTree = "<group>"; };
+		293141492B00A7EF0046CB6F /* LoadingScreenLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoadingScreenLogo.png; path = "../../../iosdev-miaBranch/LoadingScreenLogo.png"; sourceTree = "<group>"; };
+		2931414B2B00A80D0046CB6F /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridView.swift; path = "../../../iosdev-miaBranch/GridView.swift"; sourceTree = "<group>"; };
+		2931414D2B00A81C0046CB6F /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = "../../../iosdev-miaBranch/WelcomeView.swift"; sourceTree = "<group>"; };
+		293141532B00A9770046CB6F /* GeneratePlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePlaylist.swift; sourceTree = "<group>"; };
+		295DD7542B0172A600337EB3 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		295DD7562B01750D00337EB3 /* Mixtify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mixtify-Bridging-Header.h"; sourceTree = "<group>"; };
+		295DD7592B017A0000337EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295DD75B2B017E2900337EB3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		295DD75D2B017FBF00337EB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		295DD75F2B01802500337EB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293141112B00A6870046CB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295DD7552B0172A600337EB3 /* SpotifyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293141222B00A6880046CB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2931412C2B00A6880046CB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2931410B2B00A6870046CB6F = {
+			isa = PBXGroup;
+			children = (
+				293141162B00A6870046CB6F /* Mixtify */,
+				293141282B00A6880046CB6F /* MixtifyTests */,
+				293141322B00A6880046CB6F /* MixtifyUITests */,
+				293141152B00A6870046CB6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293141152B00A6870046CB6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293141142B00A6870046CB6F /* Mixtify.app */,
+				293141252B00A6880046CB6F /* MixtifyTests.xctest */,
+				2931412F2B00A6880046CB6F /* MixtifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293141162B00A6870046CB6F /* Mixtify */ = {
+			isa = PBXGroup;
+			children = (
+				295DD7592B017A0000337EB3 /* Info.plist */,
+				293141442B00A7810046CB6F /* miabranch */,
+				293141172B00A6870046CB6F /* MixtifyApp.swift */,
+				293141192B00A6870046CB6F /* ContentView.swift */,
+				2931411B2B00A6880046CB6F /* Assets.xcassets */,
+				2931411D2B00A6880046CB6F /* Mixtify.entitlements */,
+				2931411E2B00A6880046CB6F /* Preview Content */,
+				295DD7562B01750D00337EB3 /* Mixtify-Bridging-Header.h */,
+				295DD75B2B017E2900337EB3 /* Constants.swift */,
+				295DD75F2B01802500337EB3 /* SceneDelegate.swift */,
+			);
+			path = Mixtify;
+			sourceTree = "<group>";
+		};
+		2931411E2B00A6880046CB6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2931411F2B00A6880046CB6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		293141282B00A6880046CB6F /* MixtifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				293141292B00A6880046CB6F /* MixtifyTests.swift */,
+			);
+			path = MixtifyTests;
+			sourceTree = "<group>";
+		};
+		293141322B00A6880046CB6F /* MixtifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				293141332B00A6880046CB6F /* MixtifyUITests.swift */,
+				293141352B00A6880046CB6F /* MixtifyUITestsLaunchTests.swift */,
+				295DD7542B0172A600337EB3 /* SpotifyiOS.framework */,
+			);
+			path = MixtifyUITests;
+			sourceTree = "<group>";
+		};
+		293141442B00A7810046CB6F /* miabranch */ = {
+			isa = PBXGroup;
+			children = (
+				293141492B00A7EF0046CB6F /* LoadingScreenLogo.png */,
+				2931414B2B00A80D0046CB6F /* GridView.swift */,
+				2931414D2B00A81C0046CB6F /* WelcomeView.swift */,
+				293141452B00A7AD0046CB6F /* LoadingScreenView.swift */,
+				293141532B00A9770046CB6F /* GeneratePlaylist.swift */,
+				295DD75D2B017FBF00337EB3 /* ViewController.swift */,
+			);
+			path = miabranch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293141132B00A6870046CB6F /* Mixtify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293141392B00A6880046CB6F /* Build configuration list for PBXNativeTarget "Mixtify" */;
+			buildPhases = (
+				293141102B00A6870046CB6F /* Sources */,
+				293141112B00A6870046CB6F /* Frameworks */,
+				293141122B00A6870046CB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mixtify;
+			productName = Mixtify;
+			productReference = 293141142B00A6870046CB6F /* Mixtify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293141242B00A6880046CB6F /* MixtifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2931413C2B00A6880046CB6F /* Build configuration list for PBXNativeTarget "MixtifyTests" */;
+			buildPhases = (
+				293141212B00A6880046CB6F /* Sources */,
+				293141222B00A6880046CB6F /* Frameworks */,
+				293141232B00A6880046CB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293141272B00A6880046CB6F /* PBXTargetDependency */,
+			);
+			name = MixtifyTests;
+			productName = MixtifyTests;
+			productReference = 293141252B00A6880046CB6F /* MixtifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2931412E2B00A6880046CB6F /* MixtifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2931413F2B00A6880046CB6F /* Build configuration list for PBXNativeTarget "MixtifyUITests" */;
+			buildPhases = (
+				2931412B2B00A6880046CB6F /* Sources */,
+				2931412C2B00A6880046CB6F /* Frameworks */,
+				2931412D2B00A6880046CB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293141312B00A6880046CB6F /* PBXTargetDependency */,
+			);
+			name = MixtifyUITests;
+			productName = MixtifyUITests;
+			productReference = 2931412F2B00A6880046CB6F /* MixtifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2931410C2B00A6870046CB6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					293141132B00A6870046CB6F = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+					293141242B00A6880046CB6F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 293141132B00A6870046CB6F;
+					};
+					2931412E2B00A6880046CB6F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 293141132B00A6870046CB6F;
+					};
+				};
+			};
+			buildConfigurationList = 2931410F2B00A6870046CB6F /* Build configuration list for PBXProject "Mixtify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2931410B2B00A6870046CB6F;
+			productRefGroup = 293141152B00A6870046CB6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293141132B00A6870046CB6F /* Mixtify */,
+				293141242B00A6880046CB6F /* MixtifyTests */,
+				2931412E2B00A6880046CB6F /* MixtifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293141122B00A6870046CB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293141202B00A6880046CB6F /* Preview Assets.xcassets in Resources */,
+				2931411C2B00A6880046CB6F /* Assets.xcassets in Resources */,
+				2931414A2B00A7EF0046CB6F /* LoadingScreenLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293141232B00A6880046CB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2931412D2B00A6880046CB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293141102B00A6870046CB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2931414E2B00A81C0046CB6F /* WelcomeView.swift in Sources */,
+				2931411A2B00A6870046CB6F /* ContentView.swift in Sources */,
+				295DD7602B01802500337EB3 /* SceneDelegate.swift in Sources */,
+				293141542B00A9770046CB6F /* GeneratePlaylist.swift in Sources */,
+				293141182B00A6870046CB6F /* MixtifyApp.swift in Sources */,
+				295DD75C2B017E2900337EB3 /* Constants.swift in Sources */,
+				2931414C2B00A80D0046CB6F /* GridView.swift in Sources */,
+				295DD75E2B017FBF00337EB3 /* ViewController.swift in Sources */,
+				293141462B00A7AD0046CB6F /* LoadingScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293141212B00A6880046CB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2931412A2B00A6880046CB6F /* MixtifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2931412B2B00A6880046CB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293141342B00A6880046CB6F /* MixtifyUITests.swift in Sources */,
+				293141362B00A6880046CB6F /* MixtifyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293141272B00A6880046CB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293141132B00A6870046CB6F /* Mixtify */;
+			targetProxy = 293141262B00A6880046CB6F /* PBXContainerItemProxy */;
+		};
+		293141312B00A6880046CB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293141132B00A6870046CB6F /* Mixtify */;
+			targetProxy = 293141302B00A6880046CB6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		293141372B00A6880046CB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293141382B00A6880046CB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2931413A2B00A6880046CB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mixtify/Mixtify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mixtify/Preview Content\"";
+				DEVELOPMENT_TEAM = Y46ALDLY7Y;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MixtifyUITests",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = sheCodes.Mixtify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mixtify/Mixtify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2931413B2B00A6880046CB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mixtify/Mixtify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mixtify/Preview Content\"";
+				DEVELOPMENT_TEAM = Y46ALDLY7Y;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MixtifyUITests",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = sheCodes.Mixtify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mixtify/Mixtify-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2931413D2B00A6880046CB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sheCodes.MixtifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mixtify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mixtify";
+			};
+			name = Debug;
+		};
+		2931413E2B00A6880046CB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sheCodes.MixtifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mixtify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mixtify";
+			};
+			name = Release;
+		};
+		293141402B00A6880046CB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sheCodes.MixtifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mixtify;
+			};
+			name = Debug;
+		};
+		293141412B00A6880046CB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sheCodes.MixtifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mixtify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2931410F2B00A6870046CB6F /* Build configuration list for PBXProject "Mixtify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293141372B00A6880046CB6F /* Debug */,
+				293141382B00A6880046CB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293141392B00A6880046CB6F /* Build configuration list for PBXNativeTarget "Mixtify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2931413A2B00A6880046CB6F /* Debug */,
+				2931413B2B00A6880046CB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2931413C2B00A6880046CB6F /* Build configuration list for PBXNativeTarget "MixtifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2931413D2B00A6880046CB6F /* Debug */,
+				2931413E2B00A6880046CB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2931413F2B00A6880046CB6F /* Build configuration list for PBXNativeTarget "MixtifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293141402B00A6880046CB6F /* Debug */,
+				293141412B00A6880046CB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2931410C2B00A6870046CB6F /* Project object */;
+}
